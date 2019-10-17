@@ -34,7 +34,7 @@ def bigger(x, y):
     Returns `x` or `y`, whichever is bigger.
 
         >>> bigger(100, 200)
-        100
+        200
     """
     return 0
 
