@@ -16,9 +16,9 @@ class TestHomework_01_01(unittest.TestCase):
         self.assertEqual(double(0), 0)
 
     def test_triple(self):
-        self.assertEqual(double(10), 30)
-        self.assertEqual(double(5), 15)
-        self.assertEqual(double(0), 0)
+        self.assertEqual(triple(10), 30)
+        self.assertEqual(triple(5), 15)
+        self.assertEqual(triple(0), 0)
 
     def test_bigger(self):
         self.assertEqual(bigger(1, 2), 2)
