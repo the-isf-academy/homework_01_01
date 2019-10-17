@@ -27,6 +27,8 @@ class TestHomework_01_01(unittest.TestCase):
 
     def test_has_an_eight(self):
         self.assertFalse(has_an_eight([1, 2, 3, 4]))
+        self.assertTrue(has_an_eight([1, 2, 3, 8]))
+        self.assertTrue(has_an_eight([1, 2, 8, 4]))
         self.assertTrue(has_an_eight([8, 8, 8, 8]))
         self.assertFalse(has_an_eight([]))
         
